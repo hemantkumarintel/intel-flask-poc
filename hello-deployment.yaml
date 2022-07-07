@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: docker.io/hemantx/python
+          image: public.ecr.aws/e3n7g6m7/hemantkumarintel:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5002
