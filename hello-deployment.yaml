@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: frontendvm
-          imagePullPolicy: Never
+          image: docker.io/hemantx/python
+          imagePullPolicy: Always
           ports:
             - containerPort: 5002
